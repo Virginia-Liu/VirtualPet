@@ -4,6 +4,7 @@ void setup(){
   size(400,400);
   background(255,255,255);
   noStroke();
+fill(0,0,0);
     ellipse(150, 200, 150, 50); // big body
     triangle(170,180,160,130,120,180); //fin
     ellipse(100,200,70,30); // head
