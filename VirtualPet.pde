@@ -1,7 +1,7 @@
 
 void setup(){
   //some of your code here
- createCanvas(400, 400);
+  createCanvas(400, 400);
   background(255, 255, 255);
   noStroke();
   fill(255, 0, 0);
