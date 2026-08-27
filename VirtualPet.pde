@@ -2,6 +2,7 @@
 void setup(){
   //some of your code here
   size(400,400);
+  background(255,255,255);
   noStroke();
     ellipse(150, 200, 150, 50); // big body
     triangle(170,180,160,130,120,180); //fin
