@@ -1,12 +1,5 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 // build script for generating processing.js
-noStroke();
-  ellipse(150, 200, 150, 50); // big body
-  triangle(170,180,160,130,120,180); //fin
-  ellipse(100,200,70,30); // head
-  triangle(200,182,200,220,250,205);//end body before tail
-//arc(150, 200, 80, 80, PI/2,PI);
-size(400,400);
 var Browser = {
   isDomPresent: true,
   navigator: navigator,
