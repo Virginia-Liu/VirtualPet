@@ -23,9 +23,6 @@ fill(255,255,255);
  stroke(0,0,0);
   fill(25, 25, 112);
    ellipse(100,200,5,5); // eyes
-
-fill(240, 211, 212);
-triangle(64,203,69,208,74,203); // teeth
 }
 void draw(){
   //more of your code here
