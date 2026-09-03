@@ -27,4 +27,10 @@ fill(255,255,255);
 void draw(){
   //more of your code here
 }
-
+ noStroke();   
+    fill(255, 165, 0);
+    ellipse(150 + x,200,50,25);
+    triangle(190 + x,190,190+y,210,160+y,200);
+    fill(0,0,0);
+    ellipse(140 + x,200,5,5); 
+    
