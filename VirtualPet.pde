@@ -25,9 +25,5 @@ fill(255,255,255);
    ellipse(100,200,5,5); // eyes
 }
 void draw(){
-  //more of your code here
-
-
-https://s1.ezgif.com/tmp/ezgif-16db2dadc4b72252.gif
 }
 
